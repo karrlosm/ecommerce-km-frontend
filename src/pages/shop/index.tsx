@@ -1,5 +1,7 @@
 import { useGetProducts } from "../../hooks/useGetProducts"
-import { Product } from "./product";
+import { Product } from "./components/product";
+
+import './styles.css';
 
 export const ShopPage = () => {
     const { products } = useGetProducts();
